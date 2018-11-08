@@ -2,6 +2,11 @@ body {
   font-family: 'KoHo', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #ccafb2
+}
+
 .nav-bar {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -30,6 +35,11 @@ body {
   text-decoration: none;
 }
 
+img {
+  height: 20em;
+  width: 17em;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -49,9 +59,13 @@ body {
 }
 
 .box1 {
-  background-color: #ccafb2;
+  background-color: #ccafb2 !important;
   grid-column: 1/4;
   text-align: center;
+  font-family: 'Parisienne', cursive;
+  font-size: 2em !important;
+  font-weight: bold;
+  padding: none;
 }
 
 .box2 {
