@@ -1,6 +1,10 @@
+body {
+  font-family: 'KoHo', sans-serif;
+}
+
 .nav-bar {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   /* grid-template-columns: repeat(5, 1fr); */
   grid-auto-rows: 20%;
   padding: 1.5em;
@@ -11,6 +15,19 @@
   text-align: center;
 }
 
+#logo-init {
+  font-family: 'Parisienne', cursive;
+  font-size: 30px;
+}
+
+.logo1 {
+  justify-self: start;
+}
+
+.logo2 {
+  justify-self: end;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -19,8 +36,10 @@
 }
 
 .wrapper>div {
-  background-color: #eee;
+  background-color: #f4f4f4;
   padding: 1em;
+  font-size: 1.2em;
+  color: #6b071b;
 }
 
 .wrapper>div:nth-child(odd) {
