@@ -14,14 +14,16 @@
   <nav>
     <div class="nav-bar">
       <div id="logo-init">AT</div>
-      <div class="logo1"><a href="main.html">About</a></div>
-      <div class="logo1">Projects</div>
-      <div class="logo2"><a href="resume.html">Resume</a></div>
-      <div class="logo2">LinkedIn</div>
-      <div class="logo2">GitHub</div>
+      <div class="logo1"><a class="nav-items" href="main.html">About</a></div>
+      <div class="logo1"><a class="nav-items" href="#projects">Projects</a></div>
+      <div class="logo2"><a class="nav-items" href="resume.html">Resume</a></div>
+      <div class="logo2"><a class="nav-items" href="#">LinkedIn</a></div>
+      <div class="logo2"><a class="nav-items" href="#">GitHub</a></div>
     </div>
   </nav>
   <div class="wrapper">
+
+    <div class="name">Anna Triebwasser</div>
     <div>
       <h3>About me</h3>
     </div>
@@ -41,40 +43,45 @@
         NYCDA. I would like to advance with my new skills and would like to apply them in making new interactive maps.</p>
     </div>
     <div>
-      <img src="images/version1.jpg" alt="I">
+      <img id="photo" src="images/version1.jpg" alt="I">
     </div>
     <div class="box box1">
-      <h3>Projects</h3>
+      <h3 id="projects">Projects</h3>
     </div>
     <div class="box box2">
-      <h3>Bakery</h3>
+      <h3><a class="proj-items" href="https://morning-harbor-78366.herokuapp.com/">Bakery</h3>
       <p>This is a fullstack bakery website that displays information on cookies, cakes and muffins offered for sale as
         well as enables someone to receive a catalog of items sold via email.
-        Tools used are API Wrappers in Ruby and Sinatra microframework.</p>
+        Tools used are API Wrappers in Ruby and Sinatra microframework.</a></p>
     </div>
     <div class="box box3">
-      <p>Here goes picture or movie</p>
+      <img class="proj-pic" src="images/bakery.png">
     </div>
 
     <div>
-      <p>Here goes picture or movie</p>
+      <img class="proj-pic" src="images/midpoint.png">
     </div>
     <div class="box box4">
       <h3>Midpoint</h3>
       <p>
         This is the app for two people who want find a conveniet location to meet up which would lay between two
-        addresses.
+        addresses.</p>
+      <p>
+        One can enter two locations and find midpoint which will serve as a point arond which a restourant or cafe will
+        be selected as a place to meat.
       </p>
     </div>
 
     <div class="box box2">
       <h3>Cross Tabulation App</h3>
       <p>
-        This is the app for displaying Census data in a friendly format.
+        This is the app for displaying Census data in a friendly format.</p>
+      <p>This app works with PUMs data from Census Bureau's website. After uploading csv file to the app you can
+        display agragated data for age groups, race, or nativity.
       </p>
     </div>
     <div class="box box3">
-      <p>Here goes picture or movie</p>
+      <img class="proj-pic" src="images/cross-tab.png">
     </div>
 
   </div>
